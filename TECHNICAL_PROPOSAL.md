@@ -5,15 +5,13 @@
 
 ## The Core Constraint
 
-Article Seven (The Paper Test) says: software can only do things that could also be done on paper. This means the software is an accelerator, not a dependency. Every feature must have a paper equivalent. If the server goes down, every member should still have a readable copy of everything the group has ever decided.
-
-This constraint eliminates a lot of architectural complexity. We are not building a platform that groups depend on. We are building a tool that groups can use, leave, and replace.
+D0 Article Six (The Paper Test) says: software can only do things that could also be done on paper. This means the software is an accelerator. Every feature must have a paper equivalent. If the server goes down, every member should still have a readable copy of everything the group has ever decided.
 
 ---
 
 ## The Record is the Product
 
-Everything in Groupthink flows through the record. Proposals, votes, membership changes, delegation, splits. The record is an append-only log. Old entries are never changed or deleted. Every member can hold a copy. No copy is more official than another.
+Everything in Groupthink flows through the record. Discussions, consent outcomes, membership changes, splits. The record is an append-only log. Old entries are never changed or deleted. Every member can hold a copy. Every copy is equally valid.
 
 This is, structurally, a replicated append-only log. The question is how to replicate it.
 
@@ -22,17 +20,11 @@ This is, structurally, a replicated append-only log. The question is how to repl
 A CRDT (Conflict-free Replicated Data Type) is a data structure where every copy can be edited independently, and all copies merge automatically without coordination. There is no leader. There is no "master copy." Edits converge deterministically regardless of the order they arrive in.
 
 This maps directly onto Groupthink's principles:
-- "Any member can keep their own copy of the record. Every copy is equally real." (Document One, 4.4)
-- "If two copies of the record got out of sync... both versions are kept as history." (Document One, 9.4)
+- "Any member can keep their own copy of the record. Every copy is equally valid." (D1 A4.4)
+- "If two copies of the record got out of sync... both versions are kept as history." (D1 A9.4)
 - The Paper Test: CRDTs separate the data model from transport. The same document can sync over a server, a local WiFi network, a USB drive, or a printout that someone types back in.
 
 The recommended library is **Automerge**, a mature CRDT implementation designed for exactly this kind of collaborative document.
-
-**Why not Git?** Git looks decentralized, but in practice every group ends up with a "main" remote that everyone pushes to. That remote becomes a single point of failure. Git also requires coordination on concurrent writes (merge conflicts), which CRDTs eliminate by design.
-
-**Why not pure peer-to-peer (libp2p, etc.)?** P2P requires peers to be online at the same time and requires NAT traversal, which is fragile. CRDTs decouple the data from the transport. You can use P2P as one transport when it works, and fall back to anything else when it doesn't.
-
-**Why not federation (Matrix, ActivityPub)?** Federation assumes persistent servers with stable identities and DNS entries. Those can be seized, blocked, or shut down. CRDTs are more fundamental. You could use a federated protocol as one transport layer, but the CRDT document is the source of truth, not any server.
 
 ---
 
@@ -50,7 +42,7 @@ Each group is an Automerge document containing structured data:
   "record": [
     {
       "id": "unique-id",
-      "type": "proposal | vote | join | leave | delegation | rulebook-change | split",
+      "type": "discussion | consent | stand-aside | block | set-aside | join | leave | rulebook-change | split | circle | dormancy",
       "author": "member-public-key",
       "timestamp": "ISO-8601",
       "signature": "cryptographic-signature",
@@ -108,16 +100,16 @@ Each member holds a cryptographic keypair. The public key is their identity with
 
 1. You generate a keypair. Your public key is your pseudonym in this group.
 2. When you join, existing members sign your public key, creating a membership credential (a vouching signature).
-3. Every action you take (proposal, vote, delegation) is signed with your private key. Any member can verify it was really you.
+3. Every action you take (raising a discussion, consenting, standing aside, blocking) is signed with your private key. Any member can verify it was really you.
 4. You can attach a human-readable name to your key, or not.
 
 ### Why this matters
 
-If a server is seized, there is no membership list to capture. The record contains actions taken by public keys. "Public key a7f3b2... voted yes on Proposal 12" is meaningless unless an adversary can link that key to a physical person. And since keys are different per group, compromising one group's membership reveals nothing about another.
+If a server is seized, there is no membership list to capture. The record contains actions taken by public keys. "Public key a7f3b2... consented to Discussion 12" is meaningless unless an adversary can link that key to a physical person. And since keys are different per group, compromising one group's membership reveals nothing about another.
 
 ### The Sybil problem
 
-One person creating many fake identities is solved socially, not cryptographically: existing members vouch for new members. This is exactly how Document One's membership process works (Section 1.2). A friend group does this naturally. A larger organization might require multiple existing members to co-sign a new membership credential. This mirrors how real trust networks function.
+One person creating many fake identities is solved socially: existing members vouch for new members. This is exactly how Document One's membership process works (D1 A1.2). A larger organization might require multiple existing members to co-sign a new membership credential.
 
 ### Why not zero-knowledge proofs?
 
@@ -135,33 +127,34 @@ This is where the "wizard" idea from our earlier discussion comes in:
 
 1. **Name your group** and invite founding members
 2. **Pick a template** (or start from Document One defaults):
-   - Casual (friends, clubs): shorter discussion/voting periods, no sponsors needed
-   - Cooperative (worker-owned, shared resources): longer periods, higher thresholds for rulebook changes
-   - Governance (neighborhood councils, associations): structured circles, delegation enabled
+   - Casual (friends, clubs): shorter notice periods, minimal overhead
+   - Cooperative (worker-owned, shared resources): longer notice periods, extended notice for rulebook changes
+   - Governance (neighborhood councils, associations): structured circles, longer discussion periods
    - Custom: start from raw Document One and configure everything
 3. **Review the rulebook** the template generates
-4. **Founding vote**: all founding members approve the initial rulebook (simple majority, as Document One specifies)
+4. **Founding consent**: all founding members discuss and consent to the initial rulebook. All founders must consent. *(See D1 A1.1.)*
 5. **The group is live**
 
-Templates are convenience, not magic. Every template produces a standard rulebook that the group can amend through the normal proposal process.
+Templates are convenience. Every template produces a standard rulebook that the group can amend through the normal discussion-consent process.
 
 ---
 
 ## What the Software Does (and Doesn't Do)
 
 **The software does:**
-- Present proposals, discussions, and votes in a clean UI
-- Track voting periods and deadlines automatically
-- Calculate delegation and enforce caps
-- Track active/inactive member status
+- Present discussions, consent status, and outcomes in a clean UI
+- Track notice periods and discussion deadlines automatically
+- Track active/inactive member status (D1 A1.5)
 - Maintain the append-only record
 - Allow full export of all data at any time
 - Support circles as nested groups
 - Handle the mechanics of splitting (copy circle record, create new group)
+- Support anonymous resistance checks (D1 A3.7)
+- Support atoms as group members (Document Two)
 
 **The software does not:**
 - Make decisions for the group
-- Prevent any action that could be done on paper (e.g., a member can always "vote" by telling another member in person, and that member can record it)
+- Prevent any action that could be done on paper
 - Lock data behind accounts, paywalls, or proprietary formats
 - Create dependencies that would break the group if the software disappeared
 
@@ -190,7 +183,7 @@ Templates are convenience, not magic. Every template produces a standard ruleboo
 
 4. **Mobile**: A PWA covers most cases, but native apps for iOS/Android would improve notifications and offline support. Worth the development cost?
 
-5. **Inter-group communication**: Should groups be able to discover and interact with each other (e.g., for inter-group proposals)? The CRDT model makes this possible without federation infrastructure, but the protocol for cross-group proposals needs design.
+5. **Inter-group communication**: Should groups be able to discover and interact with each other (e.g., for cross-group discussions)? The CRDT model makes this possible without federation infrastructure, but the protocol needs design.
 
 6. **Economic model**: How is managed hosting sustained? Freemium (free for small groups, paid for large)? Donations? Cooperative ownership of the platform itself (eating our own dog food)?
 
