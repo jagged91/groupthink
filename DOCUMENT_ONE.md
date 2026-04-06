@@ -21,7 +21,7 @@ Every person has the right to:
 2. **Leave** any group, at any time, for any reason.
 3. **Start something new** — leave and create a new group with anyone who wants to join you.
 4. **Say no** — refuse to join any group, refuse to participate in any decision, refuse any obligation.
-5. **Stay** — a member cannot be removed against their will. If a group has a problem with a member, it can raise discussions, form smaller groups, or split — but it cannot remove someone's membership.
+5. **Stay** — a member cannot be removed against their will. If a group has a problem with a member, it can raise discussions, form smaller groups, or split — but it cannot remove someone's membership. A member's procedural mechanisms (such as blocking) may be temporarily suspended, or a member may be placed in **structured separation**, through a process integrity discussion *(see D2 A11)*. Structured separation suspends active participation — the member cannot raise discussions, block, vouch, or participate in consent rounds — but membership itself is irrevocable. The member retains the right to observe, to keep a copy of the record, and to return when the separation period ends.
 
 **No one is in charge of you unless you say so, and you can change your mind.**
 
@@ -29,7 +29,7 @@ Every person has the right to:
 
 ### Article One - Equal Power
 
-Every member can raise concerns and shape decisions. The right to participate, the right to be heard, and the right to leave belong to every member equally and permanently.
+Every member can raise concerns and shape decisions within the groups they belong to. The right to participate, the right to be heard, and the right to leave belong to every member equally and permanently. *(At the federation level, the unit of participation is the group, not the individual. See D3 A1.3.)*
 
 ### Article Two - Open Decisions
 
@@ -53,7 +53,7 @@ If you see coercion, name it. That is every member's responsibility.
 
 1. This document follows its own rules. If people want to change it, they raise a discussion and decide together.
 2. A group can choose to follow a specific version of this document.
-3. **Article Zero can never be changed.**
+3. **Article Zero defines what this framework is.** Voluntary association is the foundation of Groupthink. If a group unanimously consents to abandon voluntary association, they are free to do so — but what they have built is no longer this framework. Article Zero is not a cage; it is a definition.
 4. **The Articles can never be violated**, but their wording can be clarified through the normal decision-making process.
 
 ---
