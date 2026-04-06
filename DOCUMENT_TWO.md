@@ -1,87 +1,152 @@
-# Document Two - Groups as Members
-### Groupthink - Version 0.2
+# Document Two - The Default Rulebook
+### Groupthink - Version 0.4
 
-> This is Document Two. It establishes one principle: a group can be a member of another group. When a group reaches unanimous consent, it becomes a single voice - an **atom**. Document One's rules apply at every scale.
-
----
-
-## The Principle - Atomic Condensation
-
-A person is unanimous within themselves. A group that reaches unanimous consent has done the same thing - it has resolved its internal complexity into a single position.
-
-A group in this state is called an **atom**. It can participate in a larger group with the same rights and responsibilities as any individual member.
+> This is Document Two. It contains the default rules that every Groupthink group starts with. Groups talk until everyone present can live with the outcome, or set the matter aside. Process only runs when there is friction.
+>
+> Groups operate within the commons (Document Zero) and respect the rights of persons (Document One).
 
 ---
 
-## Article One - Atoms
+## Article One - Membership
 
-*Implements: D0 Article Three (Fractal Structure), D0 Article Zero (Voluntary Association)*
+*Implements: D1 A0 (Voluntary Association)*
 
-1. **A group that has reached unanimous internal consent on a position is an atom.** It can participate in a larger group as a member under Document One.
-2. **An atom joins another group through the standard membership process.** A current member vouches, the group discusses, and if no one objects, the atom joins. *(See D1 A1.2.)*
-3. **An atom's consent is its internally consented position.** When a discussion is raised in the larger group, the atom participates by running its own internal discussion, reaching consent, and bringing that position to the table. Its "I can live with this" means "we discussed this internally and we can live with this."
-4. **An atom can leave at any time.** *(See D0 Article Zero.)*
-5. **An atom cannot be expelled.** *(See D0 Article Zero, D1 A1.4.)*
-6. **An atom has one voice,** regardless of how many individuals it contains.
-
----
-
-## Article Two - How an Atom Participates
-
-*Implements: D0 Article One (Equal Power), D0 Article Two (Open Decisions)*
-
-1. **An atom participates in discussions through the standard process.** It is notified when a discussion is raised. It chooses whether to participate. If it does not participate, it is implicitly consenting. *(See D1 A2.4.)*
-2. **Participation requires internal process.** When an atom participates in a discussion, it must first run its own internal discussion under its own rulebook. The position it brings to the larger group must be the product of that internal process.
-3. **The notice period is the atom's opportunity to deliberate.** The larger group's notice period *(D1 A2.3)* gives atoms time to run their internal discussions. The larger group's rulebook should set notice periods long enough for this. If an atom needs more time, it can say so.
-4. **An atom can consent, stand aside, or block.** The internal process that produced the position is the atom's own business. The larger group sees only the result.
-5. **An atom can change its position.** If new information emerges, or if its internal discussion produces a different outcome, the atom can revise its position in the larger group. If a decided matter is reopened internally, the atom can raise a re-opening discussion in the larger group under D1 A2.10.
+1. When a group is first created, the members are whoever is there at the start. These founding members discuss and consent to the group's first set of rules (the rulebook). All founders must consent. If consent cannot be reached, any founder can leave and start their own group.
+2. After that, a new person joins in two steps: a current member vouches for them, and the group discusses it. If no member objects, the person joins. If anyone objects, the group discusses until consent is reached or the matter is set aside.
+3. A member can leave at any time. It gets written down. *(See D1 A0.)*
+4. A member cannot be removed. If the group has a problem with a member, the group's options are: raise a discussion, form circles, or split. *(See D1 A0.)*
+5. If a member stops participating in discussions for 6 consecutive discussion cycles (or a period defined by the rulebook), they are marked "not active." They are still members but are not counted as participants in discussions they don't attend. An inactive member keeps all membership rights under D1 A0 but cannot block discussions they did not participate in. To return to active status, a member must participate in at least one full discussion cycle.
+6. A person can be a member of as many groups as they want at the same time.
+7. Members can use any name they want. Within a group and its circles, you use the same name. In a separate group, you can use a different name. No one can force you to reveal that your name in one group is connected to your name in another.
+8. Membership requires the capacity to consent — a person must be able to understand what it means to join, to participate, and to leave. The rulebook defines eligibility conditions. *(See D0 A3 — Responsibility — for responsibility to those affected by decisions but who cannot be members.)*
 
 ---
 
-## Article Three - Emissaries
+## Article Two - Discussions
 
-*Implements: D0 Article Zero (Voluntary Association)*
+*Implements: D1 A1 (Equal Power), D1 A2 (Open Decisions)*
 
-1. **An atom needs a human voice.** Groups cannot literally speak. When an atom participates in a discussion - especially in person - it sends an emissary: a person who carries the group's consented position.
-2. **An emissary carries the group's consented position.** They present it exactly as consented. They may explain it and answer questions. They may not negotiate, compromise, or modify the position without returning to their group for a new internal discussion.
-3. **An emissary can be replaced at any time.** The group discusses and consents to who carries their voice.
-4. **If an emissary commits to something the group did not consent to, the group is not bound.** It can disavow the statement and send a correction.
-5. **In software, emissaries may be unnecessary.** When a group can publish its consented position directly, the emissary exists only for physical meetings.
-
----
-
-## Article Four - The Fractal
-
-*Implements: D0 Article Three (Fractal Structure)*
-
-1. **The structure repeats without limit.** A group of people can become an atom within a larger group. That larger group can become an atom within a still larger group. At every layer, the rules are the same - Document One, applied to members that happen to be groups.
-2. **Each layer is self-sufficient.** If a larger group dissolves, its atoms continue to function independently. Groups can reform a larger group, coordinate informally, or go their separate ways.
-3. **No layer has authority over the layers below it.** A larger group's decisions do not override an atom's internal governance. If an atom's internal consent changes after the larger group has decided something, the atom can raise a re-opening discussion in the larger group, or leave.
-4. **Speed is proportional to scope.** Discussions in a small local group resolve quickly. Discussions in a group whose atoms are themselves groups take longer, because each atom must run its own internal process. This is correct - bigger decisions deserve more deliberation.
-5. **Scope narrowing.** When consent cannot be reached in a larger group, the matter is set aside *(D1 A2.9)*. Atoms that agree with each other can choose to act together on their own - forming a new, smaller group among themselves. Atoms that disagree are not bound. The larger group records the set-aside.
+1. **The status quo is the default.** Things continue as they are unless someone raises a discussion.
+2. **Any member can raise a discussion at any time.** You don't need permission or supporters.
+3. **A discussion must be announced.** All members must be notified: what the discussion concerns, and when it will take place. By default, a discussion cannot produce a binding outcome until at least **2 days** after it is announced. The rulebook can change this notice period but it must be at least 1 day.
+4. **Participation is voluntary.** Any member can join any discussion. If you don't participate, you are implicitly consenting to whatever the participants decide. If you later disagree with the outcome, you can raise a new discussion (see D2 A2.11).
+5. **Discussion has no fixed deadline.** It continues until the participants reach consent or set the matter aside. The rulebook can set a maximum discussion period (by default, **30 days**). If no consent is reached by then, the matter is automatically set aside.
+6. **Consent means "I can live with this."** A participant who disagrees but does not wish to block can **stand aside** — their disagreement is recorded, but the discussion proceeds.
+7. **A binding outcome requires the consent of all participants.** Every person who participated must either consent or stand aside. If any participant says "I cannot live with this," the matter is not resolved.
+8. **A block must be seconded.** When a participant blocks, at least one other participant must support the block for it to stand. An unsupported block is converted to a stand-aside — the objection is recorded, but it does not stop the group. Both the blocker and the seconder are named in the record. The rulebook cannot remove the seconding requirement, but it can raise the number of seconds required.
+9. **Abstaining.** A member who has seen the discussion but chooses not to participate may formally abstain. Abstaining means "I've seen this and I have no objection." It is recorded.
+10. **Set-aside.** If consent cannot be reached, the matter is set aside. The status quo continues. The discussion can be raised again later when conditions have changed.
+11. **Re-opening a decided matter.** Any member can raise a new discussion about a previous outcome. A decided matter cannot be re-opened within one discussion cycle (by default, **14 days**) unless the person raising it can show that something has genuinely changed — new information, new members, changed circumstances. The group decides whether the change is genuine.
+12. **Alternatives.** During a discussion, any participant can propose an alternative approach. The group discusses all alternatives. Consent is sought for each in turn. If the group cannot consent to any alternative, the matter is set aside.
+13. **The commons clause.** During any discussion that touches a shared physical resource, any participant can invoke the commons: *"I believe this decision exceeds what the commons can sustain."* An invocation must cite specific, observable evidence. *(See D0 A4.)* When invoked: the discussion pauses; the group examines the evidence together; consent cannot be sought until the commons concern has been addressed. The invocation and the group's response are recorded. If the group concludes the constraint is not being exceeded, it records its reasoning and continues. Re-raising an already-examined commons concern follows the re-opening rules (D2 A2.11) — the person must show that conditions have genuinely changed. An invocation without specific evidence is treated as a normal objection.
 
 ---
 
-## Article Five - Fission and Inherited Membership
+## Article Three - The Process
 
-*Implements: D0 Article Zero (Voluntary Association), D0 Article Five (No Coercion)*
+*Implements: D1 A2 (Open Decisions)*
 
-1. **When a group splits, both resulting groups inherit the original group's memberships at all higher layers.** If Group A is an atom within Group X, and Group A splits into Group A and Group A2, then Group A2 is automatically an atom within Group X. D0 Article Zero is supreme - the right to leave and start something new cannot be structurally punished.
-2. **Consent processes cannot be used to punish the exercise of fundamental rights.** D0 Article Zero overrides the group's consent power to protect both the right to stay (D1 A1.4) and the right to leave.
-3. **Inherited membership applies at every layer.** If Group X is itself an atom within Group Y, and Group A2 inherits membership in Group X, it also inherits any position that Group X held in Group Y - because Group X's internal composition changed, but Group X still speaks as one at the layer above.
-4. **Inherited membership preserves access.** Each resulting group has one voice, the same as before the split. The total number of voices in the larger group increases by one, but each voice is weaker (fewer internal members to draw on). Splitting to gain votes is self-defeating.
-5. **New groups that did not originate from fission follow normal membership rules.** A group that forms independently and wants to join an existing group must go through D1 A1.2 - vouching, discussion, consent.
-
----
-
-## Article Six - Safeguards
-
-*Implements: D0 Article Five (No Coercion), D0 Article Four (Stewardship)*
-
-1. **Atoms are voluntary.** A group's decision to join a larger group must be internally consented. A group's decision to remain must be continuously voluntary. If remaining in the larger group creates obligations the group's own members did not consent to, the group can leave. *(See D0 Article Zero.)*
-2. **No social coercion.** A group that chooses not to join a larger group, or that leaves one, must not face social consequences for that choice. Naming a non-participating group as an obstacle or applying pressure to join violates D0 Article Five.
-3. **Stewardship.** Groups of groups should consider how their decisions affect people, communities, and living things not represented by any atom. *(See D0 Article Four.)*
+1. **Most things never need a discussion.** People act. The group operates. If no one has a problem, no process runs.
+2. **When a discussion is raised, a notice period begins.** Members are notified and can choose whether to participate.
+3. **After the notice period, the discussion is open.** Participants talk by any means available. Every participant should speak.
+4. **When the group feels ready, any participant can ask: "Can everyone live with this?"** If all participants consent or stand aside, the outcome is binding and recorded. Any participant can restate or reframe the question before consent is sought.
+5. **If someone cannot consent, the discussion continues.** The group explores why and whether the proposal can be modified.
+6. **If consent still cannot be reached, the matter is set aside.** The status quo continues.
+7. **Anonymous resistance check (optional).** Any participant can request an anonymous resistance check. Each participant writes a number from 0 (no resistance) to 10 (cannot live with this). The results are read aloud. This is a diagnostic tool that informs the discussion. The rulebook can make resistance checks mandatory or remove them entirely.
 
 ---
 
-*This is Document Two. It establishes that groups can be members of groups - called atoms - and that Document One applies at every scale. All rules here are derived from and subject to the articles in Document Zero. If Document Two and Document Zero ever conflict, Document Zero wins.*
+## Article Four - The Record
+
+*Implements: D1 A2 (Open Decisions), D0 A6 (The Paper Test)*
+
+1. The record is a list of everything the group has discussed and decided — every discussion raised, every outcome reached, every person who joined or left. New entries are added to the end. Old entries are never changed or deleted.
+2. Each entry says: what was discussed, who participated, whether consent was reached or the matter was set aside, who stood aside (and why, if they chose to say), who blocked, and who seconded each block. *(See D2 A2.8.)*
+3. If there is a disagreement about what the group decided, the record is the answer.
+4. Any member can keep their own copy of the record. Every copy is equally valid.
+5. The record must be written so that any person can read and understand it.
+
+---
+
+## Article Five - Circles
+
+*Implements: D1 A3 (Fractal Structure)*
+
+1. **Any member can propose creating a circle.** A circle is a smaller group inside the group that handles a specific topic.
+2. If the group consents, the circle becomes its own mini-group with its own rules, members, and record.
+3. The circle must follow any rules the parent group sets for all circles.
+4. Members of the parent group can join the circle if the circle's rules allow it.
+5. The circle makes decisions about its own topic using the same discussion-consent process. Matters outside its topic go to the parent group.
+6. The parent group can shut down a circle if the group discusses it and consents to do so.
+7. A circle can ask to become fully independent (see D2 A6).
+8. **Circles are lightweight.** Any two or more members who share an interest can form a circle. You participate in the circles you care about.
+9. A circle is created by the parent group, subject to its rules, and can be shut down by it. *(A circle is different from a member group in a federation (see Document Three). A federation member is an independent group that joined as an equal peer.)*
+
+---
+
+## Article Six - Splitting Up
+
+*Implements: D1 A0 (Voluntary Association)*
+
+1. Any circle or any group of members can propose becoming their own independent group.
+2. The people who want to leave discuss it among themselves. All of them must consent.
+3. If they consent, they take a copy of their own circle's record and rules.
+4. The parent group records that they left. The new group records where they came from.
+5. The two groups can still work together by raising discussions with each other.
+6. **The parent group cannot stop a split.** The right to leave is unconditional. *(See D1 A0.)*
+7. **Federation membership after a split.** If the group that splits is a member of a federation *(see Document Three)*, neither fragment automatically inherits federation membership. Both fragments can apply through the normal membership process. The federation should accommodate fragments in good faith. *(See D3 A4.)*
+
+---
+
+## Article Seven - Use of Resources
+
+*Implements: D0 A1 (Use), D1 A4 (No Coercion)*
+
+1. **No one owns anything. People use things.** The operative relationship between a person and a material thing is use. *(See D0 A1.)* Use can be exclusive or shared.
+2. **Exclusive use is protected.** Things a member is actively using — clothes, tools, the space they live in — are theirs to use. No one can disrupt a person's use-relationship through coercion. *(See D1 A4.)*
+3. **Shared use is coordinated by the group.** When multiple members use the same resource, the group discusses and records how that use is coordinated. The group can assign a member to care for a shared resource on the group's behalf.
+4. **The record tracks all shared resources and who is caring for them.**
+5. **When a member leaves, they continue using what they are using.** The things integrated into a person's daily life go with them. Nobody would contest that. If there is overlap — something both the departing member and the group depend on — that is a discussion. *(See D1 A0.)*
+6. **When a group splits, people continue their existing use-relationships.** *(See D2 A6.)* If something cannot be divided, the people involved discuss it. If no agreement is reached, the question is who is currently using it.
+7. **Digital records are always copied.** When a group splits, every new group gets a complete copy of the full record.
+8. **A group should avoid becoming the only source of things its members need.** When a group controls access to essential resources, the right to leave becomes harder to use and consent becomes harder to give freely. *(See D1 A4.)*
+9. **Commons resources.** A group's use of commons resources is subject to the constraints established by the commons (Document Zero). A group decision cannot approve exceeding what the commons can sustain. *(See D0 A2.)*
+
+---
+
+## Article Eight - The Rulebook
+
+*Implements: D1 A2 (Open Decisions), D1 A1 (Equal Power)*
+
+1. Every group has a rulebook. If a group doesn't write one, the defaults in this document are used.
+2. The rulebook spells out: how people join, how long notice periods are, how long discussions can last before automatic set-aside, what topics circles handle, whether resistance checks are used, and how to change the rulebook itself.
+3. The rulebook is part of the record — it exists because the group consented to create it.
+4. **Changing the rulebook requires a discussion with heightened participation.** By default, all active members must be notified and given an extended notice period of **5 days**. The rulebook can adjust this, but the notice period for rulebook changes must always be at least double the normal notice period.
+5. The rulebook can never break D1 A0 or any other article in Document One. It also cannot approve exceeding commons constraints (Document Zero).
+6. If a group is a circle inside a bigger group, its rulebook must respect the bigger group's rules.
+
+---
+
+## Article Nine - When People Disagree
+
+*Implements: D1 A2 (Open Decisions)*
+
+1. If two outcomes say opposite things, the newer one governs — unless the older one was a rulebook change. Rulebook changes take precedence over regular decisions.
+2. If a circle's decision conflicts with the parent group's rules, the parent's rule wins.
+3. If people disagree about what a rule means, someone raises a discussion. Until the group reaches consent on the meaning, the safest reading is used — the one closest to how things already are.
+4. If two copies of the record got out of sync, both versions are kept as history. Any decision that only appears in one version must be discussed and consented to by the full group before it counts.
+5. **Any disagreement about how a rule applies can be raised as a discussion.** The group is its own judge. If the group gets big enough that this becomes impractical, it can create a circle to handle disputes.
+
+---
+
+## Article Ten - Dormancy
+
+*Implements: D1 A0 (Voluntary Association)*
+
+1. A group can consent to enter dormancy — a deliberate pause where no discussions are expected and no inactivity clocks run.
+2. While dormant, no binding decisions can be made. Any member can raise a discussion to end dormancy.
+3. Dormancy is recorded. Members remain members. The group can wake up at any time.
+
+---
+
+*This is Document Two. It provides the default rules for any Groupthink group. All rules here are subject to the commons (Document Zero) and the rights of persons (Document One). If this document and a lower-numbered document ever conflict, the lower-numbered document wins.*

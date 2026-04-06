@@ -1,73 +1,89 @@
-# Document Zero
-### Groupthink - Version 0.3
+# Document Zero - The Commons
+### Groupthink - Version 0.4
 
 ---
 
 ## Why This Exists
 
-Every system of organization ever built has the same failure mode: power concentrates. Someone ends up with more say than everyone else, and the system protects them.
+We share a world. The air, the water, the land, and the living systems we depend on are finite, shared, and were here before us. Everything in this framework works within that reality.
 
-We believe you can belong to something and still be free inside it. If the rules are simple enough to remember, fair enough to trust, and impossible to capture, most groups will do the right thing most of the time. And the ones that don't? You can walk away and start over. That right can never be taken from you.
+---
 
-This is Document Zero, the irreducible core. A group of three friends can govern themselves with nothing but this page. A thousand-person cooperative can build on top of it. But no group, no matter how large, how old, or how powerful, can override what's written here.
+## The Principle
+
+The resources we depend on — water, air, land, energy, food systems, living ecosystems — belong to everyone alive. They are **the commons**: the shared inheritance of everything that lives.
+
+The commons comes before all governance and limits all decisions. A group can decide how to share what is available. A group cannot decide to have more than exists. All materials are drawn from the commons and return to it.
+
+Not all groups interact with a commons. A group whose activities do not affect shared physical resources may find this document has nothing to say to them. The commons limits what it touches. Every person exists within a commons as an individual — you depend on the place where you live, regardless of which groups you belong to.
 
 ---
 
 ## The Articles
 
-These are the beliefs that Groupthink is built on. Any group can customize its rules, but it can never violate these articles.
+### Article Zero - Shared Reality
 
-### Article Zero - Voluntary Association
+We share a physical world with finite resources. This fact limits all governance.
 
-Your participation in any group is always your choice. No one can make you join, make you stay, or make you leave. This is the foundation everything else stands on.
+1. **The commons is defined by the resource.** A watershed, a forest, an aquifer, a stretch of coastline — these have physical boundaries. The boundaries of the commons follow the resource. *(The boundaries between the commons and political governance are: the commons determines what is physically available. People, groups, and federations (Documents One through Three) determine how to share it.)*
+2. **Everyone who depends on a resource is a stakeholder in its commons.** If you depend on a resource, that resource's commons includes you.
+3. **The commons is finite and changeable.** Human action changes the commons — pollution degrades it, care restores it. The commons responds to what we do.
 
-Every person has the right to:
+### Article One - Use
 
-1. **Choose** which groups you belong to. You choose when to join and when to leave. Membership is always a personal choice.
-2. **Leave** any group, at any time, for any reason. No one can stop you or punish you for leaving.
-3. **Start something new** - leave and create a new group with anyone who wants to join you.
-4. **Say no** - refuse to join any group, refuse to participate in any decision, refuse any obligation.
-5. **Stay** - a member cannot be removed against their will. If a group has a problem with a member, it can organize around that problem - raise discussions, form smaller groups, or split - but it cannot strip someone of their membership.
+The only real relationship between a person and a material thing is **use**. Use is the act of engaging with something — eating food, wearing clothes, working with tools, living in a space. No person, group, or federation owns anything. Use is the operative relationship. Groups coordinate use.
 
-No group, decision, or rule can take these rights away. **No one is in charge of you unless you say so, and you can change your mind.**
+1. **Use can be exclusive or shared.** Exclusive use is things integrated into your body or daily life that only one person can use at a time. Shared use is a road, a workshop, the air. When use ends, materials return to availability.
+2. **A person's use-relationship is protected.** No one can disrupt it through coercion. *(See D1 A4.)* When there is a conflict about use, the group discusses it. *(See D2.)*
+3. **Creative and intellectual works are freely usable.** Ideas, songs, methods, designs — the causes of creative work (inspiration, imitation, recombination of existing concepts) cannot be cleanly attributed to a single originator. What someone creates enters the commons of human knowledge.
 
-### Article One - Equal Power
+### Article Two - Constraints
 
-Every member can raise concerns and shape decisions. No single person or small group should be able to control everything. The right to participate, the right to be heard, and the right to leave belong to every member equally and permanently.
+The commons determines what is physically available. People, groups, and federations (Documents One through Three) determine how to share it.
 
-### Article Two - Open Decisions
+1. **Constraints are physical.** The amount a resource can sustain is a commons constraint. How that amount is divided among people is policy. The commons determines what is available. People determine who gets what.
+2. **No person, group, or federation can approve exceeding what the commons can sustain.** Decisions that exceed the commons' constraints cannot be sustained.
+3. **Determining constraints is ongoing.** The state of the commons changes over time. Understanding what the commons can sustain requires collective knowledge: observation, measurement, experience, and expertise. Anyone can contribute knowledge.
 
-Groups make decisions openly. Everything is written down - every discussion, every outcome, every person who joined or left. This is the record. Any member can keep a copy. If there's a disagreement about what was decided, the record is the answer. What the group decides together is final. Rules only apply going forward - you can't change a rule and punish someone for something that already happened.
+### Article Three - Responsibility
 
-### Article Three - Fractal Structure
+The commons belongs to everything that depends on it — including future generations and living things that cannot speak for themselves.
 
-Groups can create smaller groups inside themselves (circles) to handle specific topics. Circles follow their own rules but must respect the parent group's rules. Groups can also split - any members can leave and form their own group. This right is unconditional.
+1. **Future generations are stakeholders.** Decisions that use up the commons beyond its ability to recover take from people who have no voice in the decision. A depleted commons limits everyone who comes after.
+2. **Other living things are stakeholders.** The ecosystems that sustain the commons — forests, wetlands, species that keep things in balance — are structural. Their needs are constraints on use.
+3. **Responsibility is a condition of use.** The commons is a living system to be maintained. Groups and federations that draw from the commons are responsible for its condition.
 
-### Article Four - Stewardship
+### Article Four - Witness and Invocation
 
-Their decisions affect people who are not members - including those who cannot consent to membership, such as children, future generations, and other living things. Groups should consider how their decisions affect those who have no voice in them, and can establish roles, rules, or processes to represent those interests.
+The commons speaks through the people who depend on it.
 
-### Article Five - No Coercion
+1. **Witness.** People who depend on a resource watch it, measure it, and record what they see. The record is open: anyone can contribute, anyone can read it, and it builds over time into a shared picture of what the resource can sustain. *(See D2 A2 for how the commons enters group discussions; D3 A3 for federation deliberation.)*
+2. **Invocation.** When a decision at any level touches a shared resource, any participant can invoke the commons. An invocation says: *"I believe this decision exceeds what the commons can sustain."* The invocation must point to specific evidence — the shared observational record, direct knowledge, or observable conditions.
+3. **Engagement.** An invocation pauses the discussion. The group or federation must examine the evidence before proceeding to consent. The group examines the evidence together and decides how to respond. Their response is recorded alongside the invocation.
+4. **Accountability through record.** Every invocation and every response is recorded. If the resource later degrades, the record shows what was known and what was decided.
+5. **Protection against misuse.** A commons invocation must cite specific, observable evidence. An invocation without evidence follows the normal discussion rules. If a group has already examined a commons concern and recorded its response, re-raising the same concern follows the rules for re-opening a decided matter: the person raising it must show that conditions have genuinely changed. *(See D2 A2.11.)*
 
-Consent only counts if it's free. No one should be pressured, bribed, threatened, or trapped into agreeing - or into staying silent.
+### Article Five - Nested Commons
 
-A group that controls things its members need to survive - like money, housing, healthcare, or education - holds power over those members whether it means to or not. Groups should avoid becoming the only source of things their members cannot live without. The right to leave, the right to block, and the right to say no must be livable.
+Commons scale through nesting.
 
-If you see coercion, name it. That is every member's responsibility.
+1. **Each commons is local and specific.** The unit of commons governance is the smallest area where the resource can be meaningfully understood and managed by the people who depend on it.
+2. **When commons interact, the affected commons coordinate.** When one commons' decisions affect another, the stakeholders of both participate in determining the shared constraints.
+3. **Coordination between commons follows the same principles as coordination between groups.** *(See Document Three.)*
 
 ### Article Six - The Paper Test
 
-Everything in this system must be something you can do with people, paper, and a way to talk to each other. If software is built to help, it must only do things that could also be done on paper.
+Everything in this system must be something you can do with people, paper, and a way to talk to each other. Software can help, but it must only do things that could also be done on paper.
 
 ---
 
 ## Changing This Document
 
-1. This document follows its own rules. If people want to change it, they raise a discussion and decide together.
-2. A group can choose to follow a specific version of this document.
-3. **Article Zero can never be changed.** It is the foundation everything else stands on.
-4. **The Articles can never be violated**, but their wording can be clarified through the normal decision-making process.
+1. This document follows its own rules. Changes require the direct consent of affected stakeholders.
+2. A group or federation can choose to follow a specific version of this document.
+3. **Article Zero can never be changed.** The physical world is what it is.
+4. **The Articles can never be violated**, but their wording can be clarified through direct consent of stakeholders.
 
 ---
 
-*This is Document Zero. The software is just one way to use it. If the software and this document ever say different things, this document is right.*
+*This is Document Zero. It is the ground everything stands on. The commons limits all governance. If any higher document and this document ever conflict, this document prevails.*
