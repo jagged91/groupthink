@@ -1,38 +1,6 @@
 # Declaration Zero - The Case for Change
 ### Groupthink - Version 0.6
 
----
-
-## The World As It Is
-
-We begin with what is plainly visible.
-
-### Power concentrates
-
-Capital and political power flow upward. The mechanisms designed to distribute power - markets, elections, institutions - have been captured by the people they were meant to restrain. Wealth builds on wealth. Influence buys more influence. The result is a world where a shrinking number of people make decisions that shape the lives of everyone else.
-
-This has always been true. What has changed is the scale. Global systems of finance, technology, and governance have made concentration faster, harder to see, and harder to resist than at any point in history.
-
-### Growth cannot be infinite
-
-The dominant economic model requires endless growth on a finite planet. It treats the living world as raw material and waste as someone else's problem. The atmosphere, the oceans, the soil, and the systems that sustain life are treated as externalities - things that disappear from the balance sheet until they collapse.
-
-It is a physical contradiction. An economy that must grow forever in a world that cannot grow will eventually consume its own foundation.
-
-### Representation is broken
-
-Democratic systems were built to give ordinary people a voice in how they are governed. In practice, the distance between a person and the decisions that affect their life has grown so wide that the relationship barely functions. Representatives respond to donors, to media cycles, to party structures - to everything except the people they nominally represent.
-
-The systems designed to channel participation have been hollowed out. Voting for a representative every few years falls far short of meaningful participation in the decisions that shape your daily life.
-
-### The social contract is broken
-
-When power concentrates, when growth is unsustainable, and when representation fails, the implicit agreement between people and their institutions breaks down. The promise - that if you participate, follow the rules, and contribute, the system will protect your interests - is no longer credible for most people.
-
-People know this. The loss of trust in institutions, the rise of disengagement, the fracturing of shared reality - these are symptoms. The cause is that the contract has been violated by the people who hold the most power within it.
-
----
-
 ## What This Framework Is
 
 Groupthink is a framework for human coordination that grows from the ground up. The framework must work at small scale first and prove itself before it can credibly operate at large scale.
