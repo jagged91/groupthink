@@ -35,7 +35,7 @@ People know this. The loss of trust in institutions, the rise of disengagement, 
 
 ## What This Framework Is
 
-Groupthink is a framework for human coordination that grows from the ground up. Over time, it can assume the functions currently performed by nation-states - by making them unnecessary. This will take generations. The framework must work at small scale first and prove itself before it can credibly operate at large scale.
+Groupthink is a framework for human coordination that grows from the ground up. The framework must work at small scale first and prove itself before it can credibly operate at large scale.
 
 ### A framework of emergent complexity
 
@@ -53,8 +53,9 @@ Beyond the Core, the framework provides additional values, rights, and implement
 - **Federate** - when a group relates formally to other groups. *(See Documents/Federation/)*
 - **Provide** - when a group supplies essential needs to its members. *(See Documents/Provision/)*
 - **Defend** - when a group protects against irreversible harm to persons or the commons. *(See Documents/Defense/)*
+- **Account** - when a group holds persons or groups accountable for harm. *(See Documents/Accountability/)*
 
-These are functions - things a group does - and each brings additional responsibilities. A group's profile is simply a description of what it does: "We coordinate decisions and steward a community garden." No ceremony. No rank.
+These are functions - things a group does - and each brings additional responsibilities. Some functions operate within a group; others - federation, mutual defense, accountability - operate between groups, coordinating responses that no single group can handle alone. A group's profile is simply a description of what it does: "We coordinate decisions and steward a community garden." No ceremony. No rank.
 
 ### Values as directions with floors
 
@@ -70,10 +71,10 @@ It offers one form of governance among many. If it is better, people will choose
 
 It promises to be honest about what it can do, and to grow only as fast as its principles can sustain.
 
-It assumes people are capable of coordinating with each other, and that when they can't, they are free to walk away. It also assumes that some people will act in bad faith, and that governance must be robust to this.
+It assumes people are capable of coordinating with each other, and that when they can't, they are free to walk away. It also assumes that some people will act in bad faith, and that governance must be robust to this - through structural accountability, through mutual defense, and through making cooperation so valuable that defection costs more than it gains.
 
 A Groupthink group can be five friends deciding what to do on Friday. The framework meets you where you are.
 
 ---
 
-*This is Declaration Zero. It states why this framework exists and how it is structured. The Core establishes the universal values and rights. The functions - steward, federate, provide, defend - offer additional guidance as a group's needs grow.*
+*This is Declaration Zero. It states why this framework exists and how it is structured. The Core establishes the universal values and rights. The functions - steward, federate, provide, defend, account - offer additional guidance as a group's needs grow.*

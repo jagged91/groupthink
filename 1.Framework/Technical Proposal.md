@@ -66,15 +66,17 @@ Each group is an Automerge document containing structured data:
 
 The `type` field on each record entry identifies the action. Entry types are organised by the Core and by each activated function:
 
-**Core:** `discussion` · `consent` · `stand-aside` · `set-aside` · `join` · `vouch` · `leave` · `rule-change` · `split` · `circle` · `dormancy` · `dispute` · `correction` · `function-activate` · `function-deactivate` · `epoch-close`
+**Core:** `discussion` · `consent` · `stand-aside` · `set-aside` · `join` · `vouch` · `leave` · `rule-change` · `split` · `circle` · `dormancy` · `dispute` · `correction` · `function-activate` · `function-deactivate` · `epoch-close` · `standing-decision` · `standing-decision-revoke`
 
 **Stewardship:** `commons-identify` · `invocation` · `invocation-response` · `steward-assign` · `steward-recall`
 
-**Federation:** `federation-join` · `federation-leave` · `voice-designate` · `voice-recall` · `compact-form` · `compact-leave` · `deliberation-round`
+**Federation:** `federation-join` · `federation-leave` · `voice-designate` · `voice-recall` · `compact-form` · `compact-leave` · `deliberation-round` · `commons-federation-convene` · `commons-federation-stake-declare` · `commons-federation-finding`
 
 **Provision:** `provision-acknowledge` · `provision-assessment` · `alternative-map`
 
-**Defense:** `defense-concern` · `defense-authorize` · `defense-action` · `defense-review` · `emergency-action`
+**Defense:** `defense-concern` · `defense-authorize` · `defense-action` · `defense-review` · `emergency-action` · `mutual-defense-invoke` · `mutual-defense-confirm` · `mutual-defense-refuse`
+
+**Accountability:** `harm-claim` · `structural-examination` · `repair-proposal` · `repair-consent` · `separation` · `restoration` · `standing-review` · `standing-suspension` · `standing-restoration`
 
 A group only encounters the entry types relevant to its activated functions. A group with no functions activated uses only Core entry types.
 
@@ -86,7 +88,7 @@ The `deliberation_ref` field is optional. When present, it contains the content-
 
 `rules` and `members` are derived state: they can always be rebuilt by replaying the record from the beginning. They exist for convenience, not as source of truth.
 
-The `functions` array in the group metadata records which functions (Stewardship, Federation, Provision, Defense) the group has activated. Activating or deactivating a function is itself a record entry.
+The `functions` array in the group metadata records which functions (Stewardship, Federation, Provision, Defense, Accountability) the group has activated. Activating or deactivating a function is itself a record entry.
 
 The `epoch`, `epoch_threshold_bytes`, and `prior_epochs` fields support the epoch system described in *Scaling and Epochs* below.
 
@@ -104,7 +106,7 @@ The group identifies the commons it stewards (what it is, its boundaries, who de
 
 ### Federation — when groups relate to other groups
 
-Groups can form federations (shared governance of shared concerns) or compacts (bilateral promises with no governing body). Federations use iterative deliberation: voices carry positions between the federation and member groups across multiple rounds until consent emerges or the matter is set aside. The software handles: voice designation and recall, deliberation rounds, consent tracking across groups, compact formation and records. Federation is the most architecturally significant function because it requires coordination *between* Automerge documents.
+Groups can form voluntary federations (shared governance of shared concerns), commons-based federations (coordination scoped by a shared physical resource), compacts (bilateral promises with no governing body), or mutual defense compacts (coordinated response to threats of irreversible harm). Voluntary federations use iterative deliberation: voices carry positions between the federation and member groups across multiple rounds until consent emerges or the matter is set aside. Commons-based federations use stake-weighted voice (proportional to dependence on and impact on the resource) rather than one-group-one-voice. Standing decisions allow groups to pre-authorize positions on anticipated scenarios, enabling rapid coordination without sacrificing sovereignty. The software handles: voice designation and recall, deliberation rounds, consent tracking across groups, compact formation and records, standing decision management, stake declaration and assessment for commons-based federations, and mutual defense invocation workflows. Federation is the most architecturally significant function because it requires coordination *between* Automerge documents.
 
 ### Provision — when a group supplies essential needs
 
@@ -113,6 +115,10 @@ When a group provides shelter, food, water, energy, healthcare, livelihood, or s
 ### Defense — when irreversible harm must be prevented
 
 The most dangerous and most constrained function. Activates in response to specific, identified threats of irreversible harm, and deactivates when the threat is resolved. Every defensive action requires community authorization (with specific expiry), is constrained by proportionality, and is subject to post-action review by people with no stake in the outcome. Emergency action — the only case where action precedes authorization — must be the minimum necessary and must be reported immediately. The software handles: concern routing, authorization with expiry tracking, action logging, mandatory review workflows, and role rotation tracking.
+
+### Accountability — when harm must be addressed
+
+Accountability responds to harm that has occurred — the space between soft mechanisms (reputation, exit) and defense (preventing irreversible harm in progress). The function begins with structural examination: what conditions produced the harm? It proceeds to repair: what does making it right look like? When voluntary repair is not forthcoming, the primary tool is structured separation — withdrawal of specific relationships and access, with defined duration, proportionality, and a restoration path. For confirmed floor violations, network-standing consequences apply: the finding is published, the group's Groupthink standing is suspended, and restoration is defined. The software handles: harm claim routing, structural examination workflows, repair tracking, separation management with expiry and renewal prompts, independent review coordination, network-standing publication, and restoration workflows.
 
 ### Function activation
 
@@ -354,4 +360,12 @@ Templates are convenience. Every template produces a standard set of rules that 
 8. **Decision method plugins**: The framework deliberately leaves decision methods open — consent-based, majority voting, sortition, delegation. The software needs a strategy/plugin interface for decision processes, since "the group decides how to decide" creates a bootstrapping problem in code. What is the minimal decision engine that supports multiple methods?
 
 9. **Provision dependency tracking**: When a group provides essentials, the framework requires structural health checks and alternative mapping. How much of this can the software automate vs. prompt? Can the system detect when a member's dependency on the group has increased (e.g., they've deactivated other group memberships)?
+
+10. **Network-standing propagation**: How are network-standing consequences (floor violation findings, standing suspensions, restorations) propagated across groups? Options: (a) published in federation documents and relayed through existing sync, (b) a separate "standing registry" Automerge document shared across the network, (c) gossip protocol where findings propagate peer-to-peer. The standing registry option creates a potential central point of failure; the gossip option may be slow and inconsistent. This needs careful design.
+
+11. **Commons-based federation findings distribution**: How are sustainability findings from a commons-based federation published to non-participating groups that draw from the same resource? These groups have standing (they depend on the resource) but are not syncing the federation document. Options include: direct notification through relays, publication to a resource-scoped document that any stakeholder can access, or reliance on social channels (which may be insufficient for urgent findings).
+
+12. **Stake quantification**: In commons-based federations, voice is weighted by stake. How is stake quantified and kept honest? Self-declaration with challenge rights is the starting point (Documents/Stewardship/2.Implementation.md), but this is vulnerable to exaggeration. Options: peer attestation (other stakeholders confirm each other's declared stake), measurement-based verification (for physical resources where use can be metered), or periodic audits. The choice likely varies by resource type.
+
+13. **Trust record visibility**: How does the software surface the positive incentive structure — making a group's trust record visible and meaningful to potential partners? A group's record is append-only and verifiable, but raw records are not easily digestible. Options: computed trust metrics (risky — who defines the algorithm?), curated summaries (who curates?), or simply making records searchable and letting groups evaluate each other directly. The framework's commitment to transparency suggests the last option, but usability may require some form of structured summary.
 
